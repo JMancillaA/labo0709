@@ -21,6 +21,7 @@ rm eliminar
 /workspaces/labo0709/html/index.html
 
 docker run --name some-nginx -p 8080:80  -v /workspaces/labo0709/html:/usr/share/nginx/html:ro -d nginx
+De html: a la derecha no modificar nada, es parte de la creacion del dev
 
 Para nombres con espacios se usa \
 Ejemplo /Ingenieria\ de\ software/
